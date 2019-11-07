@@ -49,8 +49,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Leonardo Couto - [@Leonard83911553](https://twitter.com/Leonardo83911553) - machinusdeveloper@gmail.com
 
-Tashfeen - raotashfeen25@gmail.com
-
 *Live preview* - (https://mekinus.github.io/apple-clone/)
 
 ## Project specific
