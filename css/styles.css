@@ -1,16 +1,43 @@
-
 * {
   margin: 0 0 0 0;
 }
-.main {
 
-box-sizing: border-box;
-width: 1300px;
-height: 700px;
-padding: 0 0 0 0;
-margin-left: 30px;
-margin-right: auto;
-border: 1px solid #757575 ;
+.main {
+  box-sizing: border-box;
+  width: 1300px;
+  height: 700px;
+  padding: 0 0 0 0;
+  margin-left: 30px;
+  margin-right: auto;
+  border: 1px solid #757575;
+}
+
+.main-picture h1 {
+  position: absolute;
+  color: white;
+  font-size: 5rem;
+  font-family: 'Montserrat', sans-serif;
+  top: 250px;
+  left: 200px;
+}
+
+.main-picture p {
+  font-size: 2rem;
+  line-height: 1;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  position: absolute;
+  top: 350px;
+  left: 150px;
+}
+
+.main-picture p span {
+  position: relative;
+  left: 50px;
+}
+
+.main-picture p span span {
+  font-size: 1.7rem;
 
 }
 .nav-bar {
@@ -21,16 +48,14 @@ border: 1px solid #757575 ;
   right: 55px;
   width: 90%;
   display: flex;
-  background: linear-gradient(to top, #757575,#5F635F,#7D7D7D,#7C807C);
+  background: linear-gradient(to top, #757575, #5F635F, #7D7D7D, #7C807C);
   height: 40px;
   justify-content: space-between;
   text-align: center;
   border-radius: 5px;
-
 }
 
 .nav-item {
-
   margin-top: 10px;
   flex: 1;
   color: #F5F5F5;
@@ -40,26 +65,22 @@ border: 1px solid #757575 ;
   text-decoration: none;
 }
 
-.logo
-{
+.logo {
   font-size: 1.4rem;
   color: white;
 }
 
-
 .wrapper i {
-
   font-size: 10px;
   position: absolute;
   right: 1px;
   left: 990px;
-  top:15px;
+  top: 15px;
 }
 
-
 .custom {
-  border: 1px solid linear-gradient(to top, #757575,#5F635F,#7D7D7D,#7C807C);
+  border: 1px solid linear-gradient(to top, #757575, #5F635F, #7D7D7D, #7C807C);
   border-radius: 10px;
-  background: linear-gradient(to top, #757575,#5F635F,#7D7D7D,#7C807C);
+  background: linear-gradient(to top, #757575, #5F635F, #7D7D7D, #7C807C);
   width: 100px;
 }
