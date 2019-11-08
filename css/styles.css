@@ -12,7 +12,7 @@
   border: 1px solid #757575;
 }
 
-.main-picture h1 {
+.main-section h1 {
   position: absolute;
   color: white;
   font-size: 5rem;
@@ -21,7 +21,7 @@
   left: 200px;
 }
 
-.main-picture p {
+.main-section p {
   font-size: 2rem;
   line-height: 1;
   font-family: 'Montserrat', sans-serif;
@@ -31,12 +31,12 @@
   left: 150px;
 }
 
-.main-picture p span {
+.main-section p span {
   position: relative;
   left: 50px;
 }
 
-.main-picture p span span {
+.main-section p span span {
   font-size: 1.7rem;
 
 }
@@ -83,4 +83,35 @@
   border-radius: 10px;
   background: linear-gradient(to top, #757575, #5F635F, #7D7D7D, #7C807C);
   width: 100px;
+}
+
+.bottom-container
+{
+
+  box-sizing: border-box;
+  height: 200px;
+  display: flex;
+  margin-left: 30px;
+}
+
+.smaller {
+width: 312px;
+height: 200px;
+}
+
+
+.bottom-box {
+  flex: 1 1 300px;
+  width: 300px;
+  border: 2px solid white;
+}
+
+footer {
+  box-sizing: border-box;
+  border: 1px solid gray;
+  height: 60px;
+  width: 1303px;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  margin-left: 32px;
 }
