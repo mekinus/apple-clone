@@ -65,6 +65,11 @@
   text-decoration: none;
 }
 
+.nav-item:hover {
+  background: linear-gradient(to right, #7C807C, #5F635F);
+  border-radius: 20px;
+}
+
 .logo {
   font-size: 1.4rem;
   color: white;
@@ -122,6 +127,10 @@
   font-size: 0.6rem;
 }
 
+.link-item a:hover {
+  text-decoration: underline;
+}
+
 .border {
   border-right: 1px solid #CCCCCC;
   padding-right: 5px;
@@ -151,4 +160,8 @@ footer h6 {
 footer h6 span a {
   text-decoration: none;
   color: #00A8E3;
+}
+
+footer h6 span a:hover {
+  text-decoration: underline;
 }
