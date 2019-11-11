@@ -38,8 +38,8 @@
 
 .main-section p span span {
   font-size: 1.7rem;
-
 }
+
 .nav-bar {
   padding-left: 0px;
   padding-right: 20px;
@@ -85,20 +85,18 @@
   width: 100px;
 }
 
-.bottom-container
-{
-
+.bottom-container {
   box-sizing: border-box;
   height: 200px;
   display: flex;
   margin-left: 30px;
+  width: 1315px;
 }
 
 .smaller {
-width: 312px;
-height: 200px;
+  width: 312px;
+  height: 200px;
 }
-
 
 .bottom-box {
   flex: 1 1 300px;
@@ -107,20 +105,30 @@ height: 200px;
 }
 
 .links {
-  flex:1 ;
+  margin-left: 140px;
+  flex: 1;
   display: flex;
   list-style-type: none;
 }
 
 .link-item {
-  flex: 1;
-
+  margin-right: 20px;
 }
 
 .link-item a {
   text-decoration: none;
   color: #00A8E3;
   font-size: 0.8rem;
+  font-size: 0.6rem;
+}
+
+.border {
+  border-right: 1px solid #CCCCCC;
+  padding-right: 5px;
+}
+
+.padder {
+  padding-left: 5
 }
 
 footer {
@@ -128,14 +136,19 @@ footer {
   box-sizing: border-box;
   border: 1px solid gray;
   height: 60px;
-  width: 1303px;
+  width: 1298px;
   padding: 20px 0 0 20px;
   margin: 0 0 0 0;
   margin-left: 32px;
 }
 
-footer h6
-{
-  #6E6E6E;
+footer h6 {
+  color: #6E6E6E;
   font-weight: lighter;
+  flex: 1;
+}
+
+footer h6 span a {
+  text-decoration: none;
+  color: #00A8E3;
 }
