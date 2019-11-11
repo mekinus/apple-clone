@@ -109,6 +109,19 @@
   border: 2px solid white;
 }
 
+.bottom-box a img:hover {
+  border-top: 1px solid #5F635F;
+}
+
+.background {
+  box-sizing: border-box;
+  width: 1300px;
+  height: 700px;
+  background-color: red;
+  background: url(../images/mountain.png) no-repeat 0 0;
+  margin-left: 30px;
+}
+
 .links {
   margin-left: 140px;
   flex: 1;
