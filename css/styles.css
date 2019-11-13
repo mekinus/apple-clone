@@ -76,7 +76,8 @@ footer h6 span a:hover {
   padding-right: 20px;
   position: absolute;
   top: 160px;
-  right: 55px;
+  left: 50%;
+  transform: translateX(-50%);
   width: 90%;
   display: flex;
   background: linear-gradient(to top, #757575, #5f635f, #7d7d7d, #7c807c);
@@ -148,7 +149,7 @@ footer h6 span a:hover {
   width: 1349px;
   height: 700px;
   background: url(../images/mountain.png) no-repeat 0 0;
-  margin-right: 30px;
+  
 }
 
 .links {
