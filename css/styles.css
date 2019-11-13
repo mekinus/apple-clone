@@ -1,0 +1,176 @@
+* {
+  margin: 0 0 0 0;
+}
+
+footer {
+  display: flex;
+  box-sizing: border-box;
+  height: 60px;
+  padding: 20px 0 0 20px;
+  margin: 0 0 0 0;
+  width: 100%;
+}
+
+footer h6 {
+  color: #6e6e6e;
+  font-weight: lighter;
+  flex: 1;
+}
+
+footer h6 span a {
+  text-decoration: none;
+  color: #00a8e3;
+}
+
+.link-item a {
+  text-decoration: none;
+  color: #00a8e3;
+  font-size: 0.8rem;
+  font-size: 0.6rem;
+}
+
+footer h6 span a:hover {
+  text-decoration: underline;
+}
+
+.main {
+  box-sizing: border-box;
+  width: 1300px;
+  height: 700px;
+  padding: 0 0 0 0;
+  margin-left: 30px;
+  margin-right: auto;
+  border: 1px solid #757575;
+}
+
+.main-section h1 {
+  position: absolute;
+  color: white;
+  font-size: 5rem;
+  font-family: 'Montserrat', sans-serif;
+  top: 250px;
+  left: 200px;
+}
+
+.main-section p {
+  font-size: 2rem;
+  line-height: 1;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  position: absolute;
+  top: 350px;
+  left: 150px;
+}
+
+.main-section p span {
+  position: relative;
+  left: 50px;
+}
+
+.main-section p span span {
+  font-size: 1.7rem;
+}
+
+.nav-bar {
+  padding-left: 0;
+  padding-right: 20px;
+  position: absolute;
+  top: 160px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  display: flex;
+  background: linear-gradient(to top, #757575, #5f635f, #7d7d7d, #7c807c);
+  height: 40px;
+  justify-content: space-between;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.nav-item {
+  margin-top: 10px;
+  flex: 1;
+  color: #f5f5f5;
+  border-right: 1px solid #757575;
+  font-weight: bold;
+  font-family: "Arial", sans-serif;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  background: linear-gradient(to right, #7c807c, #5f635f);
+  border-radius: 20px;
+}
+
+.logo {
+  font-size: 1.4rem;
+  color: white;
+}
+
+.wrapper i {
+  font-size: 10px;
+  position: absolute;
+  right: 1px;
+  left: 990px;
+  top: 15px;
+}
+
+.custom {
+  border: 1px solid linear-gradient(to top, #757575, #5f635f, #7d7d7d, #7c807c);
+  border-radius: 10px;
+  background: linear-gradient(to top, #757575, #5f635f, #7d7d7d, #7c807c);
+  width: 100px;
+}
+
+.bottom-container {
+  box-sizing: border-box;
+  height: 200px;
+  display: flex;
+  width: 100%;
+}
+
+.smaller {
+  width: 335px;
+  height: 200px;
+}
+
+.bottom-box {
+  flex: 1 1 300px;
+  width: 300px;
+  border: 2px solid white;
+}
+
+.bottom-box a img:hover {
+  border-top: 1px solid #5f635f;
+}
+
+.background {
+  box-sizing: border-box;
+  width: 1349px;
+  height: 700px;
+  background: url(../images/mountain.png) no-repeat 0 0;
+}
+
+.links {
+  margin-left: 140px;
+  flex: 1;
+  display: flex;
+  list-style-type: none;
+}
+
+.link-item {
+  margin-right: 20px;
+}
+
+.link-item a:hover {
+  text-decoration: underline;
+}
+
+.border {
+  border-right: 1px solid #ccc;
+  padding-right: 5px;
+}
+
+.padder {
+  padding-left: 5
+}
